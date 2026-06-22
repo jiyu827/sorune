@@ -1,106 +1,50 @@
-Sorune Image Generation Bible v1
-================================
+# Image Bible
 
-Executive Summary\
-The Sorune Image Generation System exists to create imagery that teaches, inspires, increases confidence, and reduces decision fatigue.\
-The benchmark is premium fashion publishing, not social media.\
-\
-Core Principles\
-• Educational Images teach.\
-• Signature Look Images inspire.\
-• All imagery inherits the Sorune Aesthetic.\
-• Users should think: "This looks like a premium fashion brand."\
-\
-Sorune Aesthetic\
-• Editorial elegance\
-• Modern minimalism\
-• Timeless femininity\
-• Premium restraint\
-• Intentional design\
-\
-Photography Direction\
-• Premium fashion campaign quality\
-• Architectural interiors, natural materials, refined environments\
-• Natural confidence, not influencer-style posing\
-\
-Styling Direction\
-• Premium, timeless wardrobe pieces\
-• Modern, wearable outfit construction\
-• Outfit first, model second, environment third\
-\
-Lighting\
-• Soft natural light\
-• Clean, premium, believable\
-• No harsh flash or artificial effects\
-\
-Composition\
-• Editorial framing\
-• Negative space\
-• Balanced layouts\
-• Clean backgrounds\
-\
-Educational Images\
-• Explain body shape, colour season, and face styling clearly\
-• Prioritise understanding over aesthetics\
-\
-Signature Look Images\
-• Demonstrate how the complete Style Blueprint comes together\
-• Save-worthy, aspirational, wearable\
-\
-Diversity Standards\
-• Inclusive representation across ethnicity, age, body shape, and features\
-• Natural and authentic representation\
-\
-Real Person Rule\
-• Human, believable models\
-• Natural skin texture\
-• No artificial perfection\
-\
-Premium Fashion Brand Rule\
-Benchmark references:\
-• Toteme\
-• The Row\
-• COS\
-• Arket\
-• Sézane\
-\
-AI Standards\
-AI must remain invisible.\
-Reject images with:\
-• Plastic skin\
-• Distorted anatomy\
-• Unrealistic textures\
-• Visible AI artefacts\
-\
-Prompt Architecture\
-1. Context\
-2. User Blueprint\
-3. Outfit\
-4. Environment\
-5. Photography\
-6. Sorune Quality Layer\
-\
-Rejection Criteria\
-Reject anything that:\
-• Looks AI generated\
-• Looks cheap\
-• Feels cluttered\
-• Feels overly trendy\
-• Fails to teach or inspire\
-\
-Future Compatibility\
-Applies to:\
-• Body Shape\
-• Colour Season\
-• Face Styling\
-• Signature Looks\
-• Style Personality\
-• Wardrobe Planning\
-• Shopping Assistant\
-• Outfit Builder\
-• Capsule Wardrobes\
-• Beauty Blueprint\
-• Travel Packing\
-\
-Final Principle\
-Sorune imagery exists to create trust, clarity, confidence, and timeless style guidance.
+> **Status: DRAFT v1 (Claude-expanded). Reconcile against the prototype's real imagery.**
+> **Source of truth:** `00_SOURCE_OF_TRUTH/01_Master_Context_Prompt.md`. Aesthetic: `15_BRAND/Design_System.md`.
+
+## Principle
+
+Sorune shows **complete looks, not isolated garments** (Master Context). Every
+recommendation image is a full styled outfit, consistent with the brand
+aesthetic.
+
+## Aesthetic
+
+Editorial, minimal, luxury, modern, timeless. References: Toteme, The Row, COS,
+Arket, Sézane. Natural light, muted/neutral grading, clean composition, generous
+negative space.
+
+## Brand palette (backgrounds & styling)
+
+Ivory #F8F6F2 · Stone #E8E2D9 · Taupe #B8ADA0 · Charcoal #2B2B2B · Black #171717 ·
+Sage #8C9A8A. Backgrounds stay within this palette; garment colour comes from the
+user's Colour Season.
+
+## Look image specification
+
+Each signature-look image should depict:
+
+- A full head-to-toe styled outfit matching the look's silhouette, palette and face styling.
+- Neutral editorial background (brand palette).
+- Natural light, soft muted grading, no harsh shadows.
+- Clean, timeless styling — no busy props, no trend-chasing.
+- Consistent crop/aspect ratio across the set.
+
+## Consistency rules
+
+- Same lighting, grading and background treatment across all looks so the
+  Blueprint reads as one cohesive set.
+- Colours shown must match the user's season palette (no off-season colour).
+- Silhouette in the image must match the body-shape guidance for the look.
+
+## Generation brief template
+
+> "Editorial full-body fashion image, [silhouette], [season palette colours],
+> [face styling notes], neutral [brand-palette] background, natural light, muted
+> grading, minimal luxury aesthetic, timeless styling, consistent crop."
+
+## Open items to confirm against the prototype
+
+- Whether images are AI-generated, stock/curated, or illustrated.
+- Required aspect ratios and sizes for the app's cards and detail screens.

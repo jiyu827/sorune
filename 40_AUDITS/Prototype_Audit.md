@@ -1,145 +1,34 @@
-You are generating Sorune Prototype Alignment Plan v1.
+# Prototype Audit (Doc ↔ Prototype Reconciliation)
 
-The attached Sorune Prototype Audit v1 is the source of truth.
+> **Status: ACTIVE CHECKLIST.** A clickable prototype already exists (Decision 004:
+> where docs and prototype disagree on build/logic, the prototype wins). Use this
+> to walk through the prototype and confirm or correct each doc. Record findings
+> as dated rows; log real changes in `02_Architecture_Change_Log.md`.
 
-Purpose:
+## How to use
 
-Convert the audit into a practical implementation roadmap.
+For each item below: open the matching prototype screen/logic, mark **Match /
+Mismatch / Missing**, and note the action. Add the prototype's screenshots or
+export into `prototype/` so the docs can be aligned exactly.
 
-Do not redesign the product.
+## Checklist
 
-Preserve as much existing work as possible.
+| Area | Doc to reconcile | Match? | Notes / action |
+|---|---|---|---|
+| Onboarding screen order | `10_PRODUCT/Blueprint_Architecture.md`, `30_ENGINEERING/UX_Screen_Spec.md` | ☐ | |
+| Validation quiz wording & order | `10_PRODUCT/Quiz_and_AI_Content.md` | ☐ | |
+| Body shapes & garment categories | `20_SYSTEMS/Body_Shape_System.md` | ☐ | |
+| Colour season set & palettes | `20_SYSTEMS/Colour_System.md` | ☐ | |
+| Face variables & six categories | `20_SYSTEMS/Face_Styling_System.md` | ☐ | |
+| Recommendation tiers & verdicts | `10_PRODUCT/Recommendation_Engine.md` | ☐ | |
+| Signature look count & slots | `20_SYSTEMS/Signature_Look_Library.md` | ☐ | |
+| Profile data shape | `30_ENGINEERING/Technical_Architecture.md` | ☐ | |
+| Tech stack / hosting / DB | `30_ENGINEERING/Engineering_Architecture.md` | ☐ | |
+| Image style & source | `50_IMAGES/Image_Bible.md`, `Face_Image_Bible.md` | ☐ | |
+| Navigation (Home/Blueprint/Looks/Explore/Profile) | `30_ENGINEERING/UX_Screen_Spec.md` | ☐ | |
 
-Executive Summary
-=================
+## Findings log
 
-Explain the goal of alignment.
-
-Current State
-=============
-
-Summarise what already exists.
-
-Must Change
-===========
-
-1.  Athletic → Rectangle
-
-Update:
-
-BODY\_SHAPES
-
-BODY\_SHAPE\_INFO
-
-Body Picker
-
-Prompts
-
-Schemas
-
-2.  Adopt Eight Categories
-
-Use:
-
--   Tops
--   Knitwear
--   Jackets & Coats
--   Dresses
--   Skirts
--   Jeans
--   Trousers
--   Swimwear
-
-Update:
-
-Routes
-
-Navigation
-
-Prompts
-
-Schemas
-
-3.  Complete-Look Image Model
-
-Replace generic garment modules.
-
-Use complete looks.
-
-Update:
-
-API prompts
-
-Schemas
-
-Image references
-
-StyleCard rendering
-
-4.  Face Styling Alignment
-
-Update:
-
--   Earrings
--   Necklaces
--   Sunglasses
--   Hair Styling
--   Hair Colour
--   Hats & Hair Accessories
-
-Remove outdated architecture.
-
-Should Change
-=============
-
-Fonts
-
-Voice
-
-Route cleanup
-
-Rate limiting
-
-Signature Look imagery
-
-Nice To Have
-============
-
-Accounts
-
-Database
-
-Analytics
-
-File-by-File Change Plan
-========================
-
-Identify:
-
--   Exact files
--   Exact modifications
--   Expected impact
-
-Migration Order
-===============
-
-Provide the safest implementation order.
-
-Testing Plan
-============
-
-Define regression testing requirements.
-
-Success Criteria
-================
-
-Define when alignment is complete.
-
-This document should be suitable for:
-
--   Engineering
--   Product
--   QA
--   Future Development
-
-Write a complete production-ready document.
+| Date | Area | Finding | Action / Decision # |
+|---|---|---|---|
+| | | | |

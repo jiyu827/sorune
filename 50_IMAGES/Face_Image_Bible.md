@@ -1,47 +1,47 @@
-Sorune Face Styling Image Bible v1
+# Face Image Bible
 
-You are generating Sorune Face Styling Image Bible v1.
+> **Status: DRAFT v1 (Claude-expanded). Reconcile against the prototype's real imagery.**
+> **Source of truth:** `00_SOURCE_OF_TRUTH/01_Master_Context_Prompt.md`. Companion to `Image_Bible.md` and `20_SYSTEMS/Face_Styling_System.md`.
 
-The attached Sorune Master Context Prompt is the supreme source of truth.
+## Purpose
 
-Requirements:
+Image rules for the **face-styling** recommendations: earrings, necklaces,
+sunglasses, hair styling, hair colour, hats & accessories.
 
-\- All imagery must inherit the Sorune Aesthetic.
+## Principle
 
-\- Follow all Sorune image standards.
+Show the styling **in context on a face/head**, consistent with the user's face
+variables and the brand aesthetic — not floating product shots, unless a clean
+product detail is explicitly needed alongside.
 
-\- Users should think: This looks like a premium fashion brand.
+## Aesthetic
 
-Generate:
+Same editorial, minimal, luxury direction as the Image Bible. Natural light,
+neutral grading, brand-palette backgrounds, clean and timeless.
 
-Executive Summary
+## Face image specification
 
-Sorune Face Styling Image Philosophy
+- Depict the recommended accessory/hair on a head that reflects the user's face
+  shape and feature scale (so the example reads as relevant).
+- Show scale accurately — a delicate earring should look delicate, a statement
+  piece should read bold.
+- Hair styling/colour images should match the recommended lines and the user's
+  Colour Season / Facial Contrast.
+- Consistent crop (head-and-shoulders) and lighting across the set.
 
-Photography Direction
+## Consistency rules
 
-Image Standards for:
+- Accessory scale matches Feature Scale / Face Size guidance.
+- Shapes match the Face Styling Library (e.g. angular frames for round faces).
+- Hair colour stays within the user's season contrast.
 
-\- Earrings
+## Generation brief template
 
-\- Necklaces
+> "Editorial head-and-shoulders image, [face shape], wearing [accessory/hairstyle],
+> [scale], [season-appropriate colour], neutral brand-palette background, natural
+> light, muted grading, minimal luxury aesthetic, consistent crop."
 
-\- Sunglasses
+## Open items to confirm against the prototype
 
-\- Hair Styling
-
-\- Hair Colour
-
-\- Hats & Hair Accessories
-
-Include:
-
-\- Image Counts
-
-\- AI Prompt Architecture
-
-\- Rejection Criteria
-
-Suitable for Designers, Engineers, AI Image Generation, and Marketing.
-
-Write a complete production-ready document.
+- Whether face styling uses on-model images, product images, or both.
+- Diversity/representation guidance for example faces.
