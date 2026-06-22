@@ -128,3 +128,22 @@ Replaces the softer v2 set (Pearl/Dove/Slate + Wisteria/Mist) which read washed-
 **Reason:** Previous palette was too soft/low-contrast; needed a backbone and a confident signature while staying neutral-led.
 
 **Supersedes:** Decision 005's specific colour values (principle and ethos unchanged).
+
+## Decision 007 — Image production approach
+- **Date:** 2026-06-22
+- **Decided by:** Jiyu
+- **Status:** Active
+- **Affects:** 50_IMAGES/*, 10_PRODUCT/Recommendation_Engine.md
+
+**Decision:**
+App styling images will be a **pre-built, human-curated library** (not on-the-fly),
+photorealistic and strictly on-brand. Consistency is enforced by a locked Style
+Core + locked style reference + fixed params/background + one post-grade preset.
+Faces are cropped/headless for the main library; face-styling imagery handled
+separately later. Colour is delivered via each user's palette, NOT a unique photo
+per season, which collapses the matrix to ~20–40 MVP images. Pilot in Midjourney;
+FLUX.2/Firefly for scale/licensing. Full method in `50_IMAGES/Image_Production_Playbook.md`.
+
+**Reason:** Curation is the only way to guarantee "never looks AI"; scope discipline + flat-rate tooling keeps it inexpensive.
+
+**Supersedes:** none

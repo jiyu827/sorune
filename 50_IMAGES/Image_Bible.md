@@ -1,5 +1,7 @@
 # Image Bible
 
+> **How to actually produce these images:** see `Image_Production_Playbook.md` (prompt template, consistency system, curation rubric, MVP scope, costs).
+
 > **Status: DRAFT v1 (Claude-expanded). Reconcile against the prototype's real imagery.**
 > **Source of truth:** `00_SOURCE_OF_TRUTH/01_Master_Context_Prompt.md`. Aesthetic: `15_BRAND/Design_System.md`.
 
