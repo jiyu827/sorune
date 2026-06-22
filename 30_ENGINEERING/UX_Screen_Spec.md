@@ -28,7 +28,7 @@ Home · Blueprint · Looks · Explore · Profile.
 
 Whitespace-first, generous spacing, simple hierarchy, mobile-first, luxury
 editorial cards (soft borders, rounded corners, restrained shadows). Primary
-button: Charcoal on Ivory.
+button: Ink on Porcelain.
 
 ## Components
 

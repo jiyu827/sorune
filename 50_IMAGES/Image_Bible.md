@@ -17,9 +17,7 @@ negative space.
 
 ## Brand palette (backgrounds & styling)
 
-Ivory #F8F6F2 · Stone #E8E2D9 · Taupe #B8ADA0 · Charcoal #2B2B2B · Black #171717 ·
-Sage #8C9A8A. Backgrounds stay within this palette; garment colour comes from the
-user's Colour Season.
+Porcelain #F4F5F7, Cloud #DDE0E5, Pewter #9197A1, Graphite #4A4F58, Ink #15171B (signature accent Plum #5E4F66, whisper Mist #C7D2D7). Backgrounds stay within this cool-neutral palette; garment colour comes from the user's Colour Season.
 
 ## Look image specification
 

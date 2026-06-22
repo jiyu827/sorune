@@ -31,8 +31,7 @@ endless options.
 ## Sorune aesthetic
 
 Editorial elegance, modern minimalism, timeless femininity, premium restraint.
-Palette: Ivory #F8F6F2, Stone #E8E2D9, Taupe #B8ADA0, Charcoal #2B2B2B, Black
-#171717, Sage #8C9A8A. Type: Cormorant Garamond (headings), Inter (body). Full
+Palette (cool neutral, defined ladder): Porcelain #F4F5F7, Cloud #DDE0E5, Pewter #9197A1, Graphite #4A4F58, Ink #15171B, with one cool signature accent Plum #5E4F66 (used sparingly) and a Mist #C7D2D7 whisper. The brand stays a neutral canvas so each user's analysed colours are the colour. Type: Cormorant Garamond (headings), Inter (body). Full
 detail in `15_BRAND/Design_System.md`.
 
 ## Product architecture (the five layers)

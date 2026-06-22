@@ -1,69 +1,104 @@
-SORUNE DESIGN SYSTEM & VISUAL IDENTITY v1
-=========================================
+# Sorune Design System & Visual Identity v2
 
-Based on the Sorune Master Context Prompt.
+> **Status: v2 — palette reset to cool neutral (Decision 005).** Replaces the v1
+> earth-tone palette. Based on `00_SOURCE_OF_TRUTH/01_Master_Context_Prompt.md`
+> and `15_BRAND/Brand_Guidelines.md`.
 
-Executive Summary
------------------
+## Executive summary
 
-Premium design system built around editorial elegance, modern minimalism, timeless femininity, premium restraint and intentional design.
+A premium design system built on editorial elegance, modern minimalism, timeless
+femininity, premium restraint and intentional design. The identity is deliberately
+**near-neutral** so the user's own colour analysis is the colour — see Colour
+Philosophy.
 
-Visual Identity
----------------
+## Visual identity
 
-Brand personality: intelligent, refined, modern, calm, thoughtful and stylish. References: Toteme, The Row, COS, Arket, Sézane, Aesop, Kinfolk, Cereal, Apple and Notion.
+Brand personality: intelligent, refined, modern, calm, thoughtful, feminine.
+References: The Row, Toteme, COS, Arket, Aesop, Apple. Cool-toned, understated,
+unmistakably considered — **never templated or AI-generated in feel** (see Design
+Ethos).
 
-Colour Philosophy
------------------
+## Colour Philosophy
 
-Primary palette: Ivory \#F8F6F2, Stone \#E8E2D9, Taupe \#B8ADA0, Charcoal \#2B2B2B, Black \#171717, Sage \#8C9A8A.
+**Principle — the brand is the gallery wall, not the painting.** Sorune's product
+gives every user a *personal* colour analysis. So the brand must not impose a
+colour identity of its own; the brand stays a quiet, cool, neutral canvas and the
+user's analysed colours provide the colour.
 
-Typography
-----------
+**Sorune palette (cool neutral — defined ladder):**
 
-Headings: Cormorant Garamond. Body: Inter. Editorial fashion meets modern technology.
+| Name | Hex | Use |
+|---|---|---|
+| Porcelain | #F4F5F7 | Primary background (cool off-white) |
+| Cloud | #DDE0E5 | Light surfaces, cards |
+| Pewter | #9197A1 | Mid grey, secondary detail, lines |
+| Graphite | #4A4F58 | Deep cool grey, strong secondary text |
+| Ink | #15171B | Primary text / near-black (cool undertone) |
 
-Photography
------------
+The ladder runs light to deep so contrast carries the design — never washed out.
 
-Premium fashion brand aesthetic. Natural light, muted grading, clean composition, timeless styling.
+**Signature accent** (the one colour, used sparingly — never enough to read as "Sorune's colour"):
 
-Layout System
--------------
+| Name | Hex | Use |
+|---|---|---|
+| Plum | #5E4F66 | Cool muted plum — small highlights, key lines/states |
 
-Whitespace-first design. Generous spacing. Simple hierarchy. Mobile-first.
+**Whisper** (optional light touch): Mist #C7D2D7 (soft cool blue-grey).
 
-Card System
------------
+## Typography
 
-Luxury editorial cards with soft borders, rounded corners and restrained shadows.
+Headings: **Cormorant Garamond** (elegant high-contrast serif). Body: **Inter**
+(clean, modern sans). Editorial fashion meets modern technology. Lean on type and
+space for character rather than decoration.
 
-Button System
--------------
+## Design Ethos (must hold across app, web, social)
 
-Primary: Charcoal on Ivory. Secondary: outlined. Tertiary: text only.
+- **Never looks AI-generated or templated.** No generic stock layouts, no clutter,
+  no trend gimmicks, no over-decoration. Distinction comes from restraint,
+  confident typography, and generous space.
+- **Unique + timeless over fashionable.** Choices should still look right in ten years.
+- **Quiet luxury.** Understated, feminine, intentional.
 
-Iconography
------------
+## Photography
 
-Minimal line icons inspired by Apple, Notion and Lucide.
+Premium editorial. Natural light, muted grading, clean composition, timeless
+styling. Neutral (Porcelain/Cloud) backgrounds; garment/feature colour comes from
+the user's palette.
 
-App UI Direction
-----------------
+## Layout system
 
-Educational-first experience. Home, Blueprint, Looks, Explore and Profile navigation.
+Whitespace-first. Generous spacing. Simple hierarchy. Mobile-first.
 
-Website Direction
------------------
+## Card system
 
-Editorial homepage with strong typography, clear value proposition and premium imagery.
+Editorial cards: soft borders, rounded corners, restrained shadows, Cloud surfaces
+on Porcelain.
 
-Canva Brand Kit Inputs
-----------------------
+## Button system
 
-Use Sorune palette, Cormorant Garamond and Inter. Keywords: Editorial, Minimal, Luxury, Modern, Timeless.
+Primary: Ink on Porcelain. Secondary: outlined (Slate). Tertiary: text only.
+Accent (Plum/Mist) only for small states, never primary fills.
 
-Future Expansion Rules
-----------------------
+## Iconography
 
-All future products inherit the Sorune aesthetic, palette, typography, image standards and architecture.
+Minimal line icons (Apple / Lucide spirit). Consistent weight, no novelty.
+
+## App UI direction
+
+Educational-first. Navigation: Home, Blueprint, Looks, Explore, Profile.
+
+## Website direction
+
+Editorial homepage: strong typography, clear value proposition, generous space,
+premium imagery, cool-neutral canvas.
+
+## Canva Brand Kit inputs
+
+Palette above (Porcelain, Cloud, Pewter, Graphite, Ink + Plum signature / Mist whisper); fonts
+Cormorant Garamond + Inter; keywords Editorial, Minimal, Feminine, Timeless,
+Cool-Neutral, Considered.
+
+## Future expansion
+
+All future products (web, TikTok, app surfaces) inherit this system: cool-neutral
+canvas, the same type, and the never-templated ethos.

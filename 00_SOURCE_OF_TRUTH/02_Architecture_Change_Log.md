@@ -92,3 +92,39 @@ and the change is logged. Prototype screens/exports should be added to `prototyp
 **Reason:** Align documentation to what is actually built.
 
 **Supersedes:** none
+
+## Decision 005 — Brand palette reset to cool neutral + design ethos
+- **Date:** 2026-06-22
+- **Decided by:** Jiyu
+- **Status:** Active
+- **Affects:** 15_BRAND/*, 00_SOURCE_OF_TRUTH/01_Master_Context_Prompt.md, 50_IMAGES/*, 20_SYSTEMS/Colour_System.md, 30_ENGINEERING/UX_Screen_Spec.md
+
+**Decision:**
+The brand palette changes from warm earth tones (Ivory/Stone/Taupe/Sage) to a cool
+neutral system: Porcelain #F4F5F7, Pearl #E7E8EC, Dove #C4C7CF, Slate #6F7480, Ink
+#1E2024, with whisper accents Wisteria #D7D5E0 and Mist #CBD6DA. Rationale: Sorune
+delivers each user a personal colour analysis, so the brand must be a near-neutral
+canvas rather than impose a colour (the "gallery wall, not the painting" principle).
+Added design ethos: unique, timeless, feminine, understated, and **never
+AI-generated/templated in feel**. Typography (Cormorant Garamond + Inter) retained.
+
+**Reason:** Earth tones clash with cool-toned users and contradict a colour-analysis product; founder is not an earth-tone person.
+
+**Supersedes:** the v1 earth-tone palette in Design_System and references to it.
+
+
+## Decision 006 — Palette refined for contrast + single signature
+- **Date:** 2026-06-22
+- **Decided by:** Jiyu
+- **Status:** Active
+- **Affects:** 15_BRAND/*, 00_SOURCE_OF_TRUTH/01_Master_Context_Prompt.md, 50_IMAGES/*, 20_SYSTEMS/Colour_System.md
+
+**Decision:**
+The cool-neutral palette is refined to a defined light-to-deep ladder — Porcelain
+#F4F5F7, Cloud #DDE0E5, Pewter #9197A1, Graphite #4A4F58, Ink #15171B — with ONE
+cool signature accent, Plum #5E4F66 (used sparingly), and a Mist #C7D2D7 whisper.
+Replaces the softer v2 set (Pearl/Dove/Slate + Wisteria/Mist) which read washed-out.
+
+**Reason:** Previous palette was too soft/low-contrast; needed a backbone and a confident signature while staying neutral-led.
+
+**Supersedes:** Decision 005's specific colour values (principle and ethos unchanged).

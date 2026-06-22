@@ -8,8 +8,7 @@
 > log a decision in `02_Architecture_Change_Log.md`.
 >
 > **Scope:** this is the *styling* colour system — how Sorune determines the
-> colours that suit the **user**. It is NOT the app's brand palette (Ivory,
-> Stone, Taupe, Charcoal, Black, Sage), which lives in
+> colours that suit the **user**. It is NOT the app's brand palette (cool neutral: Porcelain, Cloud, Pewter, Graphite, Ink + Plum signature / Mist whisper), which lives in
 > `15_BRAND/Design_System.md`.
 
 ## Role in the Blueprint
