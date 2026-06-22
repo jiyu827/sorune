@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "status": "DRAFT v1 — derived from 10_PRODUCT/Recommendation_Engine.md. Reconcile against the prototype."
+  },
+  "tiers": [
+    "Top Pick",
+    "Best Styles",
+    "Style With Care",
+    "Your Choice"
+  ],
+  "priorityOrder": [
+    "Modern",
+    "Stylish",
+    "Flattering"
+  ],
+  "priorityNote": "Always rank Modern > Stylish > Flattering. Never invert. Flattering is the floor, not the goal.",
+  "inputs": {
+    "bodyShape": [
+      "Hourglass",
+      "Pear",
+      "Inverted Triangle",
+      "Rectangle",
+      "Apple"
+    ],
+    "colourSeasonCount": 12,
+    "faceStylingVariables": [
+      "Face Shape",
+      "Face Size",
+      "Feature Scale",
+      "Feature Sharpness",
+      "Facial Contrast"
+    ]
+  },
+  "verdicts": {
+    "Yes": "Top Pick or Best Styles on all relevant axes",
+    "With Adjustments": "Style With Care on one axis; surface the adjustment note",
+    "No": "Works against the shape goal with no reasonable adjustment"
+  },
+  "confidence": {
+    "High": "Variables clearly determined; strong on all axes",
+    "Medium": "One variable borderline, or one axis Style With Care",
+    "Low": "Variables uncertain (poor photo/unresolved validation); prompt user or widen guidance"
+  },
+  "conflictResolution": [
+    "1. Never recommend something that defeats the shape's Start-Here priority.",
+    "2. Body Shape silhouette outranks Colour for garment CUT; Colour outranks Body for COLOUR/METAL.",
+    "3. Face Styling governs accessories/hair; yields to Colour on colour/metal.",
+    "4. If still tied, choose the option ranking higher on Modern > Stylish > Flattering.",
+    "5. If Style With Care on one axis but Top Pick on another, surface with the adjustment note rather than dropping it."
+  ],
+  "outputStructure": [
+    "User Formula",
+    "Styling Specification",
+    "Image Specification"
+  ],
+  "compareSort": [
+    "tier",
+    "Modern>Stylish>Flattering",
+    "colourSeasonFit",
+    "confidence"
+  ]
+}

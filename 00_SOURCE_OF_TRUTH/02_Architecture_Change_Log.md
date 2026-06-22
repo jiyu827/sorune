@@ -147,3 +147,23 @@ FLUX.2/Firefly for scale/licensing. Full method in `50_IMAGES/Image_Production_P
 **Reason:** Curation is the only way to guarantee "never looks AI"; scope discipline + flat-rate tooling keeps it inexpensive.
 
 **Supersedes:** none
+
+## Decision 008 — Image approach revised: consistent house models, identity-locking tool
+- **Date:** 2026-06-22
+- **Decided by:** Jiyu
+- **Status:** Active
+- **Affects:** 50_IMAGES/*
+
+**Decision:**
+Revises Decision 007. Styling images use a small, diverse cast of consistent AI
+"house models" (NOT faceless — faceless felt creepy and the product needs faces for
+face styling). Faces are kept consistent via an identity-locking tool — primary
+recommendation Nano Banana Pro or Seedream (consistency + commercial-friendly +
+affordable); Midjourney optional for aesthetic exploration only (its character
+reference drifts). Generate generously within a deliberate structure; curation time,
+not compute, is the real cost; still avoid the full season×category matrix (colour
+rides on the user's palette).
+
+**Reason:** Faceless imagery harms UX and can't carry face-styling formulas; consistency across a recurring cast is the core requirement, which favours identity-locking tools over Midjourney.
+
+**Supersedes:** the "crop faces out" and "Midjourney-first" specifics of Decision 007.

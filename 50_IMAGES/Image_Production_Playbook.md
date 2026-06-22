@@ -1,98 +1,119 @@
 # Image Production Playbook
 
-> **Purpose:** how to produce ALL of Sorune's styling images so they look like
-> one cohesive, premium, timeless editorial shoot — never AI, never trashy — and
-> do it cheaply. Companion to `Image_Bible.md` (the *what*) — this is the *how*.
-> **Golden rule:** every image must look like it came from the same shoot. Consistency beats any single "wow" image.
+> **Purpose:** produce ALL of Sorune's styling images as one cohesive, premium,
+> timeless editorial set — photoreal, never "AI", never trashy — affordably.
+> Companion to `Image_Bible.md` (the *what*); this is the *how*.
+> **Golden rule:** every image must look like the same shoot, with the same small cast of models. Consistency beats any single striking image.
 
-## 1. The consistency system (read this first)
+## 1. Faces — yes, with a consistent cast (revised)
 
-Five locks. Use ALL of them on every image. This — not the tool — is what makes 200 images look like one brand.
+We are **not** going faceless. For a personal-styling product, customers expect to
+see real, aspirational, human looks — and the face-styling formulas (earrings,
+hair, etc.) literally need faces. Headless everywhere would feel cold and, frankly,
+a bit creepy.
 
-1. **Locked Style Core.** A fixed block of prompt text appended to *every* prompt (lighting, lens, grade, palette, background, mood). You never change it. See §3.
-2. **Locked Style Reference.** In Midjourney, generate once, find a style you love, then reuse its **`--sref` code** (and/or a **moodboard / personalization profile**) on every image forever. This is the single biggest consistency lever and costs nothing extra.
-3. **Fixed parameters.** Same aspect ratio, same version, same stylize value, every time (see §3).
-4. **Fixed background.** Always the same seamless pale studio backdrop (Porcelain #F4F5F7 / soft cool grey). A constant background instantly unifies a library.
-5. **One post-grade preset.** After generating, run every image through the *same* light colour-grade preset (Lightroom/Photoshop/free tools) tuned to the cool-neutral palette. This erases small differences and is the final unifier.
+Instead we use a **small cast of recurring "house models"** — like a real brand's
+lookbook. Modern tools can lock one identity across an entire library (see §2), so
+the same few faces appear throughout and everything feels intentional and human.
 
-If an image breaks any lock, it doesn't go in the library.
+- **A small, diverse cast** (suggested 3–5 identities across ages, skin tones and
+  body types) so users see themselves and the brand reads inclusive.
+- The **same locked identities** are reused for body looks AND face styling, so the
+  whole app feels like one world.
+- Headless / cropped shots are fine as an *occasional* editorial device, not the rule.
 
-## 2. Tool choice
+## 2. Tool choice (revised — consistency first)
 
-- **Start / pilot: Midjourney.** Best editorial aesthetic, least "AI" looking, and its **`--sref` + personalization** features are the easiest way to lock one style across a whole library. Web interface, no code.
-- **Scale / tighter control: FLUX.2 Pro.** Photoreal, strong reference control, cost-effective at volume.
-- **Commercial-safety priority: Adobe Firefly or FLUX** (trained on licensed/clean data — safest to ship commercially). **Confirm the licence terms of whatever you choose before building a library you publish.**
-- Recommendation: pilot in Midjourney for the look; if licensing/scale demand it, move the bulk run to FLUX.2 or Firefly using the same Style Core.
+Because we now need the **same faces repeated** across a whole library, the priority
+shifts from "prettiest single image" to "locks identity + style + commercially safe
++ affordable." On that basis:
 
-## 3. The prompt template (fill in the blanks)
+- **Primary (production library): an identity-locking model — Nano Banana Pro or Seedream.**
+  Nano Banana Pro locks a character from reference images and keeps it consistent
+  across poses/angles, with a clean, literal, commercial-friendly look and built-in
+  content authentication. Seedream's "universal reference" keeps characters and
+  brand assets consistent across generations at low cost — built for exactly this.
+- **Optional (aesthetic exploration / hero moodboards): Midjourney.** Best *default*
+  taste, but its character reference **drifts** on new poses/angles and it auto-adds
+  cinematic flair — great for finding the look, weaker for a consistent library.
+- **Commercial licensing:** confirm the licence of whatever you pick before shipping.
+  Identity tools accessed via fal (Nano Banana) and licensed-data models (Firefly,
+  FLUX) are the safer commercial routes. Don't skip this.
 
-**Variable part (changes per image):**
-`[full-length OR cropped] editorial photograph of a woman wearing [OUTFIT: garments + silhouette from Body_Shape_System], [pose/framing]`
+Practical path: optionally use Midjourney to *define* the look, then build the
+**production library in Nano Banana Pro or Seedream** with locked identities.
 
-**Locked Style Core (paste on EVERY prompt, never edit):**
-`editorial fashion photography, soft natural daylight, muted cool-neutral colour grade, seamless pale porcelain-grey studio background, minimal refined styling, calm timeless mood, quiet-luxury aesthetic inspired by The Row, Toteme and COS, fine fabric detail, generous negative space, shot on 85mm, photorealistic`
+## 3. The consistency system (apply ALL, every image)
 
-**Locked parameters (never change):**
-`--ar 4:5 --style raw --stylize 150 --sref [YOUR_LOCKED_CODE] --v 7`
+1. **Locked Style Core** — a fixed prompt block (lighting, lens, grade, palette,
+   background, mood), pasted on every prompt, never edited. See §4.
+2. **Locked identities** — the same reference images for each house model, reused
+   everywhere (this is the feature the chosen tool must do well).
+3. **Fixed parameters** — same aspect ratio (4:5), realism settings, every time.
+4. **Fixed background** — same seamless pale porcelain/cool-grey studio backdrop.
+5. **One post-grade preset** — run every final through the same light colour-grade
+   tuned to the cool-neutral palette. The final unifier.
 
-> Notes: `--ar 4:5` = portrait for app/social; `--style raw` = less "AI-stylised"; lower `--stylize` keeps it realistic; `--sref` = your locked style code; `--v 7` = use the current Midjourney version. Adjust syntax to the current version if it has changed.
+If an image breaks any lock, it doesn't enter the library.
 
-**Worked examples** (silhouettes pulled from `20_SYSTEMS/Body_Shape_System.md`):
+## 4. Prompt template
 
-- *Hourglass — Everyday:* "cropped editorial photograph of a woman wearing a fitted wrap dress that follows a defined waist, straight relaxed pose, face turned away" + Style Core + params
-- *Pear — Work:* "full-length editorial photograph of a woman wearing a structured-shoulder blazer over a column skirt, balanced silhouette, headless crop at the chin" + Style Core + params
-- *Rectangle — Elevated Everyday:* "cropped editorial photograph of a woman in a belted shirt dress creating a defined waist, soft daylight" + Style Core + params
+**Variable part:** `editorial photograph of [HOUSE MODEL NAME/REF] wearing [OUTFIT + silhouette from Body_Shape_System], [pose/framing]`
 
-## 4. Faces — the rule that saves you
+**Locked Style Core (every prompt, never edit):**
+`editorial fashion photography, soft natural daylight, muted cool-neutral colour grade, seamless pale porcelain-grey studio background, minimal refined styling, calm timeless mood, quiet-luxury aesthetic (The Row, Toteme, COS), fine fabric detail, generous negative space, 85mm, photorealistic`
 
-Faces and hands are the AI giveaways and the hardest thing to keep consistent. So for body/look images: **crop them out** — headless, face turned away, or cropped at the chin. This is genuine editorial style (The Row, COS do it constantly), it removes the #1 "AI tell," and it kills the most expensive consistency problem at zero cost.
+Keep aspect 4:5, realism-leaning settings, and the model's locked reference attached.
 
-Face-styling images (earrings, hair) *do* need faces — **handle that category last and separately** (tighter crops of just ear/neck/hair, or licensed imagery). Do not let it hold up the main library.
+## 5. How many images — be generous, but structured
 
-## 5. Scope for MVP — keep it small and cheap
+You're paying a subscription, so the *generation* is effectively free at the
+margin — so yes, generate plenty. But the real cost isn't compute, it's **your
+curation time** (every image must be vetted to hold the "never looks AI" bar) and
+**consistency risk** (more images = more chances to drift). So:
 
-Do **not** generate the full matrix (body × season × category × style = thousands). You don't need it: **colour is delivered by each user's palette + recommendation text, not a unique photo per season.** So:
+- **Be generous *within* a deliberate structure** — many variations per look, all
+  the look slots you want, several house models. A rich library is good.
+- **Don't generate the blind full matrix** (body × season × category × style =
+  thousands). It adds curation/management burden with **no UX payoff**, because
+  **colour is delivered by each user's palette + text, not a unique photo per season.**
+- Sensible launch target: **3–5 house models × 5 body-shape looks × 4 slots**
+  (Everyday · Elevated · Work · Event), generate 6–8 variations each, keep the best
+  1–2. That's a generous but curatable library, not an unmanageable dump.
 
-- **5 body shapes × 4 look slots** (Everyday · Elevated Everyday · Work · Event) = **20 hero looks**.
-- Generate ~6–8 variations each, **keep the best 1–2** → a **~20–40 image** launch library.
-- Expand later (Off-duty, more looks) once the pipeline is proven.
-
-That's a tiny, controllable, inexpensive set — not thousands.
+Rule of thumb: generate freely, **keep ruthlessly.** Quantity is cheap; a sloppy
+library is expensive.
 
 ## 6. Keeping cost low
 
-- **Use a flat-rate subscription with an unlimited/"relax" generation tier** (Midjourney-style) rather than pay-per-image API billing. For a curated library, a flat monthly fee = effectively unlimited attempts for one predictable cost. *(Check current plan prices before subscribing — they change.)*
-- **Scope discipline** (§5) is the real cost control — 30 images, not 3,000.
-- **Lock the style first** (§1) so you stop re-rolling for consistency.
-- **Cropped framing** (§4) means fewer rejected images (no face/hand glitches to throw away).
-- Do a single **batch session**: lock sref → run all 20 looks → curate → grade. One focused sitting.
+- **Flat-rate subscription / unlimited tier** rather than pay-per-image, so volume
+  is one predictable cost. *(Check current plan prices before subscribing.)*
+- **Lock style + identities first** so you stop re-rolling for consistency.
+- **Scope discipline** (§5) — generous within structure, not the infinite matrix.
+- One focused batch session: lock models + style → run looks → curate → grade.
 
 ## 7. Curation rubric — reject if ANY of these
 
-- Plastic/waxy skin or "too perfect" surfaces
-- Warped or extra fingers, mangled hands/jewellery
-- Garbled text or fake logos on garments
-- Unnatural symmetry or an uncanny face (prefer cropped — see §4)
-- Lighting, background, or grade that doesn't match the rest of the set
-- Anything that makes you think "AI" for even a second
-
-Generate many, keep few. The reject pile should be large — that's the process working.
+Plastic/waxy skin · warped hands or jewellery · garbled text/logos on garments ·
+uncanny or inconsistent faces (must match the locked model) · lighting/background/
+grade that doesn't match the set · anything that reads "AI" for even a second.
+Generate many, keep few — a large reject pile means it's working.
 
 ## 8. Library naming & handoff
 
-Save finals with a consistent name so they map to the app and styling docs:
+`model_bodyshape_lookslot_variant.jpg` → e.g. `maya_hourglass_everyday_01.jpg`.
+Keep originals + graded versions. These feed `Signature_Look_Library.md` and the
+Recommendation Engine's "Image Specification".
 
-`bodyshape_lookslot_variant.jpg` → e.g. `hourglass_everyday_01.jpg`, `pear_work_01.jpg`
+## 9. Do-this-now: the pilot
 
-Store originals + graded versions. These feed `Signature_Look_Library.md` and the Recommendation Engine's "Image Specification".
+1. Pick the production tool (Nano Banana Pro or Seedream) and a flat-rate plan.
+2. Create **one** house model: lock its reference images / identity.
+3. With the Style Core, generate **one look** (e.g. Hourglass — Everyday) ~8 times
+   with that locked identity.
+4. Curate to the best 1–2; apply the colour-grade preset.
+5. Judge hard: consistent face? never looks AI? on-brand and timeless? If yes →
+   add the rest of the cast and scale. If no → adjust Style Core wording and re-test
+   before scaling.
 
-## 9. Do-this-now: the pilot batch
-
-Before building all 20, prove the look:
-
-1. In Midjourney, run the Style Core with `--sref random` a few times; pick the style you love; **copy and lock that `--sref` code.**
-2. Generate **one look for one body shape** (e.g. Hourglass — Everyday) ~8 times with the locked sref.
-3. Curate to the best 1–2. Apply your colour-grade preset.
-4. Look hard: does it clear "never looks AI, timeless, on-brand"? If yes → scale to all 20. If not → adjust the Style Core wording and re-test (don't scale until the pilot passes).
-
-That pilot is the whole risk, de-risked for the price of one look.
+One model + one look proves the whole pipeline for almost nothing.

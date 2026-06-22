@@ -1,0 +1,453 @@
+{
+  "_meta": {
+    "status": "DRAFT v1 — derived from 20_SYSTEMS/Body_Shape_System.md. Reconcile against the prototype; prototype wins.",
+    "tiers": [
+      "Top Pick",
+      "Best Styles",
+      "Style With Care",
+      "Your Choice"
+    ],
+    "priorityOrder": [
+      "Modern",
+      "Stylish",
+      "Flattering"
+    ],
+    "note": "Colour is applied from the user's Colour Season, not encoded here. 'Style With Care' guidance states the adjustment."
+  },
+  "shapes": {
+    "Hourglass": {
+      "summary": "Balanced shoulders and hips with a clearly defined waist. Follow the natural waistline; avoid hiding it.",
+      "startHere": [
+        "Define the waist",
+        "Keep proportions clean",
+        "Avoid bulk that squares off the silhouette"
+      ],
+      "categories": {
+        "Tops": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Fitted/semi-fitted that follow the waist (wrap, fitted knit)"
+          },
+          {
+            "tier": "Style With Care",
+            "guidance": "Boxy/oversized — belt or front-tuck"
+          }
+        ],
+        "Knitwear": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Fine-gauge, body-skimming; tuck or half-tuck"
+          }
+        ],
+        "Necklines": [
+          {
+            "tier": "Best Styles",
+            "guidance": "V-neck, scoop, sweetheart"
+          }
+        ],
+        "Sleeves": [
+          {
+            "tier": "Your Choice",
+            "guidance": "Most work; avoid heavy structured shoulders"
+          }
+        ],
+        "Jackets & Coats": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Waist-defined: belted, single-button nip, wrap coats"
+          },
+          {
+            "tier": "Style With Care",
+            "guidance": "Boxy/straight — belt them"
+          }
+        ],
+        "Dresses": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Wrap and fit-and-flare"
+          },
+          {
+            "tier": "Best Styles",
+            "guidance": "Bodycon, sheath"
+          }
+        ],
+        "Skirts": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Pencil, A-line from the waist, bias"
+          }
+        ],
+        "Jeans": [
+          {
+            "tier": "Best Styles",
+            "guidance": "High/mid-rise at the natural waist; straight, bootcut"
+          }
+        ],
+        "Trousers": [
+          {
+            "tier": "Best Styles",
+            "guidance": "High/mid-rise at the natural waist; straight, bootcut"
+          }
+        ],
+        "Shorts": [
+          {
+            "tier": "Best Styles",
+            "guidance": "High-rise tailored"
+          }
+        ],
+        "Swimwear": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Waist-defining one-pieces, high-waist two-pieces"
+          }
+        ]
+      },
+      "educationalCopy": "Your shape is naturally balanced — the styling job is simply to let your waist show."
+    },
+    "Pear": {
+      "summary": "Hips wider than shoulders with a defined waist. Add interest/breadth up top; keep the lower half clean and elongating.",
+      "startHere": [
+        "Draw the eye up",
+        "Structure the shoulder line",
+        "Keep lower-body lines simple/streamlined"
+      ],
+      "categories": {
+        "Tops": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Detail at shoulder/neckline; lighter colours up top"
+          },
+          {
+            "tier": "Best Styles",
+            "guidance": "Tops ending past the widest hip point"
+          }
+        ],
+        "Knitwear": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Texture, horizontal interest or colour up top"
+          }
+        ],
+        "Necklines": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Boat, square, off-shoulder (widen shoulder line)"
+          }
+        ],
+        "Sleeves": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Puff, structured, statement"
+          }
+        ],
+        "Jackets & Coats": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Structured shoulders; length clearing the hip or mid-thigh"
+          },
+          {
+            "tier": "Style With Care",
+            "guidance": "Jackets ending at the widest hip"
+          }
+        ],
+        "Dresses": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Fit-and-flare, A-line, wrap"
+          }
+        ],
+        "Skirts": [
+          {
+            "tier": "Best Styles",
+            "guidance": "A-line, full, dark streamlined pencil"
+          }
+        ],
+        "Jeans": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Straight, bootcut; mid/high rise; darker washes if streamlined wanted"
+          },
+          {
+            "tier": "Style With Care",
+            "guidance": "Skinny with fitted top — balance with volume up top"
+          }
+        ],
+        "Trousers": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Straight, bootcut; mid/high rise"
+          }
+        ],
+        "Shorts": [
+          {
+            "tier": "Style With Care",
+            "guidance": "Very short/tight — choose relaxed tailored"
+          }
+        ],
+        "Swimwear": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Detailed/patterned tops with plain bottoms; higher-cut legs"
+          }
+        ]
+      },
+      "educationalCopy": "We add a little structure and interest up top so your silhouette reads balanced top to bottom."
+    },
+    "Inverted Triangle": {
+      "summary": "Shoulders/bust broader than hips. Soften the upper body; add volume/interest to the lower half.",
+      "startHere": [
+        "Soften shoulders",
+        "Add lower-body volume",
+        "Create a waist"
+      ],
+      "categories": {
+        "Tops": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Softer shoulders, V-necks, draping fabrics"
+          },
+          {
+            "tier": "Style With Care",
+            "guidance": "Structured shoulders, halters, heavy embellishment up top"
+          }
+        ],
+        "Knitwear": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Fine, draping; avoid chunky shoulder detail"
+          }
+        ],
+        "Necklines": [
+          {
+            "tier": "Top Pick",
+            "guidance": "V-neck and scoop"
+          }
+        ],
+        "Sleeves": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Set-in, simple; avoid puff/structured shoulders"
+          }
+        ],
+        "Jackets & Coats": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Single-breasted, soft shoulder, longer line"
+          },
+          {
+            "tier": "Style With Care",
+            "guidance": "Strong-shouldered blazers"
+          }
+        ],
+        "Dresses": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Fit-and-flare, A-line with detail below the waist"
+          }
+        ],
+        "Skirts": [
+          {
+            "tier": "Top Pick",
+            "guidance": "A-line, pleated, full, patterned"
+          }
+        ],
+        "Jeans": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Wide-leg, flare, bootcut; lighter washes/detail below"
+          }
+        ],
+        "Trousers": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Wide-leg, flare, bootcut"
+          }
+        ],
+        "Shorts": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Relaxed, A-line, patterned"
+          }
+        ],
+        "Swimwear": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Plain supportive tops with detailed/higher-cut bottoms"
+          }
+        ]
+      },
+      "educationalCopy": "We balance your strong shoulder line with a little softness up top and interest below."
+    },
+    "Rectangle": {
+      "summary": "Shoulders, waist and hips in a similar line with little waist definition (includes Athletic). Create the illusion of a waist and curves.",
+      "startHere": [
+        "Build a waist",
+        "Add curve and dimension",
+        "Use definition and layering"
+      ],
+      "categories": {
+        "Tops": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Peplum, wrap, ruched, belted"
+          },
+          {
+            "tier": "Best Styles",
+            "guidance": "Crop/tuck to break the vertical line"
+          }
+        ],
+        "Knitwear": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Belted or fitted; texture for dimension"
+          }
+        ],
+        "Necklines": [
+          {
+            "tier": "Your Choice",
+            "guidance": "Broad latitude; scoop/sweetheart add softness"
+          }
+        ],
+        "Sleeves": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Detail welcome (puff, ruffle) for dimension"
+          }
+        ],
+        "Jackets & Coats": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Belted, waist-defined"
+          },
+          {
+            "tier": "Best Styles",
+            "guidance": "Double-breasted for dimension"
+          }
+        ],
+        "Dresses": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Wrap, belted, fit-and-flare, peplum"
+          }
+        ],
+        "Skirts": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Full, pleated, A-line, bias; pair with a defined waist"
+          }
+        ],
+        "Jeans": [
+          {
+            "tier": "Your Choice",
+            "guidance": "Most cuts work; high-rise + tuck builds shape"
+          }
+        ],
+        "Trousers": [
+          {
+            "tier": "Your Choice",
+            "guidance": "Most cuts work"
+          }
+        ],
+        "Shorts": [
+          {
+            "tier": "Your Choice",
+            "guidance": "Broad latitude; paperbag/belted adds a waist"
+          }
+        ],
+        "Swimwear": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Cut-outs, belts, colour-blocking to suggest a waist"
+          }
+        ]
+      },
+      "educationalCopy": "Your frame is a clean canvas — a little waist definition and dimension is all it takes."
+    },
+    "Apple": {
+      "summary": "Weight carried around the middle, fuller waist, often slimmer legs. Elongate the torso, spotlight legs and neckline, skim the midsection.",
+      "startHere": [
+        "Elongate vertically",
+        "Create an empire/under-bust line",
+        "Show legs and décolletage",
+        "Skim, don't cling, at the waist"
+      ],
+      "categories": {
+        "Tops": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Flowing, empire-line, V-neck, longline that skims"
+          },
+          {
+            "tier": "Style With Care",
+            "guidance": "Clingy fabrics/tight waistbands at the waist"
+          }
+        ],
+        "Knitwear": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Fine, longline, V-neck; open cardigans for a vertical line"
+          }
+        ],
+        "Necklines": [
+          {
+            "tier": "Top Pick",
+            "guidance": "V-neck and scoop"
+          }
+        ],
+        "Sleeves": [
+          {
+            "tier": "Your Choice",
+            "guidance": "Most work; 3/4 length keeps proportions tidy"
+          }
+        ],
+        "Jackets & Coats": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Open, longline, vertical lines"
+          },
+          {
+            "tier": "Style With Care",
+            "guidance": "Belted-tight-at-waist"
+          }
+        ],
+        "Dresses": [
+          {
+            "tier": "Top Pick",
+            "guidance": "Empire, A-line, wrap tied above or skimming the waist"
+          }
+        ],
+        "Skirts": [
+          {
+            "tier": "Best Styles",
+            "guidance": "A-line, flowing, comfortable mid-rise"
+          }
+        ],
+        "Jeans": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Mid-rise straight/bootcut; avoid tight waistbands"
+          }
+        ],
+        "Trousers": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Mid-rise straight/bootcut"
+          }
+        ],
+        "Shorts": [
+          {
+            "tier": "Best Styles",
+            "guidance": "Mid-rise tailored that show leg"
+          }
+        ],
+        "Swimwear": [
+          {
+            "tier": "Top Pick",
+            "guidance": "One-pieces with ruching/vertical detail; tankinis; high-leg"
+          }
+        ]
+      },
+      "educationalCopy": "We lengthen your torso and spotlight your neckline and legs, keeping everything easy through the middle."
+    }
+  }
+}
